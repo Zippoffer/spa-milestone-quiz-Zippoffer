@@ -1,0 +1,60 @@
+{
+    "cars": [{
+            "make": "Nissan",
+            "model": "Frontier",
+            "year": "1998",
+            "price": "Price = 8999",
+            "image": "http://carphotos.cardomain.com/ride_images/2/3837/141/22090070001_large.jpg",
+            "color": "Blue",
+            "purchased": false,
+            "description": "This is an immaculate 1998 Nissan Frontier with only 25000 miles on it. Leather seats, power everything."
+        }, {
+            "make": "Toyota",
+            "model": "Pickup",
+            "year": "1994",
+            "price": "Price = 8999",
+            "image": "http://www.toyotareference.com/colors/truck/toyota_truck_89_202_11.jpg",
+            "color": "Black",
+            "purchased": false,
+            "description": "This is an immaculate 1994 Toyota Pickup with only 25000 miles on it. Leather seats, power everything."
+        }, {
+            "make": "Toyota",
+            "model": "LandCruiser",
+            "year": "1978",
+            "price": "Price = 8999",
+            "image": "https://s-media-cache-ak0.pinimg.com/736x/c0/3a/aa/c03aaa41c02310db0ac7ba302ae480c4.jpg",
+            "color": "Green",
+            "purchased": false,
+            "description": "This is an immaculate 1978 Toyota LandCruiser with only 25000 miles on it. Leather seats, power everything."
+        }, {
+            "make": "Reliant",
+            "model": "Robin",
+            "year": "1973",
+            "price": "Price = 8999",
+            "image": "https://static.cargurus.com/images/site/2011/06/06/18/44/1973_reliant_robin-pic-6045352465470603578-1600x1200.jpeg",
+            "color": "Blue",
+            "purchased": false,
+            "description": ""
+        }, {
+            "make": "Granite",
+            "model": "Boulder",
+            "year": "1,000,000 B.C.",
+            "price": "Price = 15 Clams",
+            "image": "https://s-media-cache-ak0.pinimg.com/564x/f9/1f/b2/f91fb28762bd57eb4199f9532153135b.jpg",
+            "color": "Slate Gray",
+            "purchased": false,
+            "description": ""
+        }, {
+            "make": "Dodge",
+            "model": "Power Wagon",
+            "year": "1943",
+            "price": "Price = 8999",
+            "image": "https://s-media-cache-ak0.pinimg.com/736x/5a/99/44/5a9944b2ba9254b162ad6a8e5f0b7897.jpg",
+            "color": "Red",
+            "purchased": false,
+            "description": ""
+        }
+
+    ]
+
+}
