@@ -1,10 +1,7 @@
 var carLot = (function(carLot) {
     var inventory = [];
 
-    // return {
-    //     getInventory: function(carInventory) {
-    //         for (var i = 0; i < carInventory.cars.length; i++) {
-    //             inventory.push(carInventory.cars[i]);
+
     carLot.getInventory = function() {
 
     }
