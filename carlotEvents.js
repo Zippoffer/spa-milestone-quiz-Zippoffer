@@ -1,5 +1,3 @@
-// function activateEvents() {
-
 var carLot = (function(eventHandlers) {
 
 
@@ -7,7 +5,7 @@ var carLot = (function(eventHandlers) {
     var input = document.getElementById("descriptionInput");
     var currentCar;
 
-    eventHandlers.addHandlers = function(car, inventory) {
+    eventHandlers.activateEvents = function(car, inventory) {
 
 
 
@@ -26,17 +24,18 @@ var carLot = (function(eventHandlers) {
             eventHandlers.clickEffect(currentCar, inventory, input);
 
 
-        });
-        input.addEventListener("keyup", function() {
-            var outPutTarget = currentCar.children[2];
-            outPutTarget.innerHTML = input.value;
+            input.addEventListener("keyup", function() {
+                var outPutTarget = currentCar.children[2];
+                outPutTarget.innerHTML = input.value;
 
+            });
         });
 
     }
 
-    // carLot.activateEvents();
+
     return eventHandlers;
+    carLot.activateEvents();
 
 
     // return carLot;
