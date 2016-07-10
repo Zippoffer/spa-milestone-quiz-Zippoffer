@@ -18,9 +18,8 @@ var carLot = (function(eventHandlers) {
                 carCards.style.borderWidth = "1px";
                 carCards.style.backgroundColor = "cornsilk";
             }
-            // currentCar = event.currentTarget;
-            console.log("currentCar", currentCar);
-            console.log("currentCar", currentCar.querySelector(".carInfo"));
+
+
             eventHandlers.clickEffect(currentCar, inventory, input);
 
 
@@ -35,9 +34,9 @@ var carLot = (function(eventHandlers) {
 
 
     return eventHandlers;
-    carLot.activateEvents();
 
 
-    // return carLot;
+
+
 
 })(carLot || {});

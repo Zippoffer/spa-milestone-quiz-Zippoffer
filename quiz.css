@@ -9,14 +9,9 @@
   box-shadow: 0 10px 22px 0px black;
   border-top: 1px solid black;
   filter: grayscale(0.7) sepia(0.8);
-  /*border-radius: 13%;*/
   transform: rotate(4deg);
-  /*transform: rotate(0.5turn);*/
 }
 
-/*.purchased {
-  color: red;
-}*/
 
 .card {
   width: 30%;

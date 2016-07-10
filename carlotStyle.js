@@ -33,12 +33,12 @@ var carLot = (function(carCSS) {
 
         currentCar.setAttribute("id", "clickedCar");
 
-        // console.log("carClicked", carClicked);
+
     };
 
 
 
 
-    // carLot.activateEvents();
+
     return carCSS;
 })(carLot || {});

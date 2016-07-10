@@ -1,9 +1,7 @@
-// (function(carLot) {
-
 var populatePage = function(inventory) {
     var toDom = "";
     var container = document.getElementById("output");
-    // var purchased;
+
     var counter = null;
     var input;
 
@@ -17,11 +15,10 @@ var populatePage = function(inventory) {
         } else {
             purchased = `Sold`;
         }
-        // console.log("purchased car", car);
         // Loop over the inventory and populate the page
         inventory.forEach(function(car, i) {
             var currentCar = inventory[i];
-            // console.log("currentCar", currentCar);
+
 
             var carCard = `<div class="card">
            
@@ -45,11 +42,11 @@ var populatePage = function(inventory) {
             container.innerHTML += carCard;
         });
         var carsOnPage = document.getElementsByClassName("card");
-        console.log("carsOnPage", carsOnPage);
+
         for (let i = 0; i < carsOnPage.length; i++) {
-            console.log(">>>>", inventory[i]);
+
             var currentCar = carsOnPage[i];
-            console.log("???", currentCar);
+
             //passes car and color of car to be set as border color of that car
             carLot.addCSS(currentCar, inventory[i].color);
             //adds event handlers to each car
@@ -64,4 +61,3 @@ var populatePage = function(inventory) {
     carLot.activateEvents();
 }
 carLot.loadInventory(populatePage);
-// })(carLot || {});
